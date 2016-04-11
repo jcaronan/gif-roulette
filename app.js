@@ -100,8 +100,3 @@ module.exports = app;
 
 //   res.end();
 // });
-
-
-app.listen(3000);
-
-console.log("Running at Port 3000");

@@ -1,17 +1,17 @@
 {
-  "name": "gif-maker",
+  "name": "gif-roulette",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ${SCRIPT:-app.js}",
+    "start": "node app",
     "monitor": "nodemon ${SCRIPT:-app.js}",
     "deploy": "gcloud preview app deploy --promote"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "angular": "^1.4.9",
     "body-parser": "^1.14.2",
     "cookie-session": "^2.0.0-alpha.1",
@@ -19,9 +19,7 @@
     "express-winston": "^1.3.0",
     "gcloud": "^0.27.0",
     "googleapis": "^2.1.7",
-    "winston": "^2.2.0"
-  },
-  "dependencies": {
+    "winston": "^2.2.0",
     "multer": "^1.1.0"
   }
 }
